@@ -8,19 +8,22 @@
 
 	</title>
 	<script src="https://kit.fontawesome.com/341159ddd9.js" crossorigin="anonymous"></script>
-</head>
+	<link rel="stylesheet" href="style1.css">
+	</head>
 
 <body>
 	<header>
-		<h1><em><strong> All important things in HTML5</strong></em></h1>
+		<h1><strong> All important things in HTML5</strong></h1>
 		<br>
-		<nav id="top">
-			<table border="1">
-			<thead><h2>INDEX</h2></thead>
-			<tbody>
+		<nav>
+			<h2>INDEX</h2>
+			<table >
+			<thead>
 				<tr>
 					<th>Sr.No.</th> <th >Name of Content</th>
 				</tr>
+			</thead>
+				<tbody>
 				<tr>
 					<td>1</td> <td ><a href="#About">&nbsp;About html</a></td>
 				</tr>
@@ -63,12 +66,11 @@
 
 		</tbody>
 		<tfoot>
-			<table border="1">
+			
 			<tr>
-				 <td><a href="#my_info">My INFO</a></td>
+				 <td></td><td><a href="#my_info">My INFO</a></td>
 			</tr>
-			</table>
-		</tfoot>
+				</tfoot>
 	</table>
 </nav>
 	</header>
@@ -80,6 +82,7 @@
 				<h3 id="About">
 					About HTML
 				</h3>
+				<article>
 			
 					First in 1990s as a way to electronically connect documents via hyperlink.
 					<br>
@@ -92,12 +95,14 @@
 						<li>Make markups to replace the code.</li>
 						<li>Device Independent.</li>
 					</ul>
+				</article>
 				
 			</div>
 			<br>
 			<br>
 			<div>
 				<h3 id="Working">Working of html</h3>
+				<p>
 			
 					<b>Request and Responce cycle</b>
 					<br>
@@ -108,9 +113,11 @@
 					The srever returns the file as responce according to the requst you made
 					<br>
 					If server can't complete your request it will show you an error.
+				</p>
 					<br>
 					<br>
 					<b>URL part</b>
+					<br>s
 					<ol>
 						<li>Protocol: Shows how to connest
 							<ul>
@@ -126,7 +133,9 @@
 						       </li>
 						   </ul>
 						</li>
-						<li>Domain Names: Identifies the entity you wnat to connect
+					</ol>
+					<ol>
+						<li value="2">Domain Names: Identifies the entity you wnat to connect
 							<ul>
 								<li>Each URL have different top level Domain</li>
 								<li>Dertermined by ICAAN
@@ -150,14 +159,18 @@
 								</li>
 							</ul>
 						</li>
-						<li>Document: URLs can specify the Document.
+					</ol>
+					<ol>
+						<li value="3">Document: URLs can specify the Document.
 							<ul>
 								<li>This is optional idea </li>
 								<li>We can open exactly the page sw want yousing Document as adderess.</li>
 								<li>If we do not mention the document then default look of site is opened.</li>
 							</ul>
 						</li>
-						<li>IP Adderess
+					</ol>
+					<ol>
+						<li value="4">IP Adderess
 							<ul>
 								<li>It is an unique address to given to page or URL.</li>
 								<li>Every computer have its own IP.</li>
@@ -196,7 +209,7 @@
 
 			<div>
 				<h3 id="ETA"> The ETA</h3>
-				<p>These there made the most of HTML</p>
+				<h4>These there made the most of HTML</h4>
 				<ol>
 					<li>Element:
 						<ul>
@@ -210,9 +223,11 @@
 							</li>
 						</ul>
 					</li>
+				</ol>
+				<ol>
 					<li>Tags:
 						<ul>
-							<li>Name of the element between< > is tag</li>
+							<li>Name of the element between &lt;&gt; is tag</li>
 							<li>Example:
 								<ul>
 									<li>h1</li>
@@ -222,6 +237,8 @@
 							</li>
 						</ul>
 					</li>
+				</ol>
+				<ol>
 					<li>Attributes:
 						<ul>
 							<li>Provides the additional information on the element</li>
@@ -235,6 +252,8 @@
 						</ul>
 						
 					</li>
+				</ol>
+				<ol>
 					<li>
 						<ul>
 							<li>
@@ -257,60 +276,64 @@
 			<br>
 			<div>
 				<h3 id="structure">Structure Build</h3>
-				<p><ul>
-					<li>
-						strucurally based element
-						<ul>
-							<li>&lt;header&gt;, &lt;section&gt;,&lt;article&gt;</li>
+					<ol>
+						<li>strucurally based element
+							<ul>
+								<li>&lt;header&gt;, &lt;section&gt;,&lt;article&gt;</li>
 								<li>&lt;nav&gt;,&lt;footer&gt;,&lt;aside&gt;</li>
-						</ul>
-					</li>
-				</ul>
-			</p>
-		</div>
+							</ul>
+						</li>
+					</ol>
+			</div>
 		<br>
 		<div>
 			<h3 id="encoding">Encoding Special Character</h3>
-			<ul><li>Special character may include charecter that are used while making page</li>
+			<ol><li>Special character may include charecter that are used while making page</li>
+			</ol>
+			<ol>
 				<li>Example:
 					<ul>
 						<li>Puntuation marks</li>
 						<li>accented letters and symbol</li>
 					</ul>
 				</li>
+			</ol>
+			<ol>
 				<li>They are encoded between &...;</li>
-				<li>List of encoded special character are <a href="specialcharacter.pdf" target="_blank"> here</a></li>
-			</ul>
+				<li>List of encoded special character are <a href="specialcharacter.pdf"> here</a></li>
+			</ol>
 		</div>
 		<br>
 		<div>
 			<h3 id="link">Creating Hyper Links</h3>
-			<p>Hyperlink provides the ability to link from one web page to another web page or resource at your desposal</p>
-			<p>only anchor(&lt;a&gt;) element have permission to wrap any level of element even block level</p>
-			<ul>
+			<ol><li>Hyperlink provides the ability to link from one web page to another web page or resource at your desposal</li></ol>
+			<ol><li>only anchor(&lt;a&gt;) element have permission to wrap any level of element even block level</li></ol>
+			<ol>
 				<li>Relative path
 					<ul>
 						<li>Mostly when you havr resource and making your oen web page</li>
 					</ul>
 				</li>
+			
 				<li>
 					Absolute path
 					<ul>
 						<li>When we want to link to another web page you need absolute path</li>
 					</ul>
 				</li>
+			
 				<li>
 					Internal path
 					<ul>
 						<li>link created to browse through page using "id"</li>
 					</ul>
 				</li>
-			</ul>
+			</ol>
 		</div>
 		<br>
 		<div>
 			<h3 id="list">Creating list</h3>
-			<ul>
+			<ol>
 				<li>
 					Type of lists
 					<ul>
@@ -339,13 +362,13 @@
 							</ul>
 						</li>
 					</ul>
-				</ul>
+				</li>
 			</ul>
 		</div>
 		<br>
 		<div>
 			<h3 id="media">Including media</h3>
-			<ul>
+			<ol>
 				<li>Adding Images
 					<ul>
 						<li>We can use diffrent formats in &lt;figure&gt; and use img in it so if one browser cant display one format then other might</li>
@@ -353,26 +376,31 @@
 						<li>alt text is very important so that all people can understand what we have on page</li>
 					</ul>
 				</li>
+			</ol>
+			<ol>
 				<li>Adding audio
 					<ul>
 						<li>in audio control we can use source with diffrent media types for accessibility</li>
 					</ul>
 					
 				</li>
+			</ol>
+			<ol>
 				<li>Adding video
 					<ul>
 						<li>nearly same as audio tag</li>
 					</ul>
 					
 				</li>
-			</ul>
+			</ol>
 
 		</div>
 		<br>
 		<div>
 			<h3 id="table">Table</h3>
-			<ul>
-				<li>Table is made by rows and coloum</li>
+			<h4>
+				Table is made by rows and coloum</h4>
+			<ol>
 				<li>Table containt
 					<ul>
 						<li>Table head &lt;th&gt;, Table row &lt;tr&gt;, Table coloum &lt;td&gt; and caption</li>
@@ -380,21 +408,23 @@
 						<li>thead, tbody, tfoot are schematic elements</li>
 					</ul>
 				</li>
-			</ul>
+			</ol>
 		</div>
 		<br>
 		<div>
 			<h3 id="font">Font Awasome</h3>
-			<ul>
+			<ol>
 				<li>
 					Font Awasome is used to get icons on web page
 				</li>
+			</ol>
+			<ol>
 				<li>Font Awasome link:
 					<ul>
-						<li><a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank" >Font Awasome </a> </li>
+						<li><a href="https://fontawesome.com/icons?d=gallery&m=free" >Font Awasome </a> </li>
 					</ul>
 				</li>
-			</ul>
+			</ol>
 		</div>
 		<br>
 		<br>
@@ -406,12 +436,11 @@
 
 	</section>
 	<footer id="my_info">
-		<p><a href="#top">Go to top</a><p>
-		
 		<h3>&copy;&nbsp;Abhijit Kantilal Shinde</h3>
 		<h3>Contact me</h3>
-		<a href="https://www.facebook.com/profile.php?id=100025355567539" aria-lable="facebook" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-		<a href="mailto:abhijitkshinde@gmail.com?Subject=hi%20there%20&body%20Hello%0AHow%20are%20you%20" aria-lable="Gmail" target="_blank"><i class="fab fa-google fa-2x"></i></a>
+		<a href="https://www.facebook.com/profile.php?id=100025355567539" target="_blank"><i class="fab fa-facebook fa-2x"></i>Facebook</a>
+		<br>
+		<a href="mailto:abhijitkshinde@gmail.com?Subject=hi%20there%20&body%20Hello%0AHow%20are%20you%20" target="_blank"><i class="fab fa-google fa-2x"></i>Gmail</a>
 	</footer>
 </body>
 </html>
