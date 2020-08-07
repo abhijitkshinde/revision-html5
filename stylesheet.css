@@ -1,0 +1,93 @@
+body{
+	background-color: rgba(160,82,45,0.3);
+}
+h1{
+	color: #483D8B;
+	font-family: arial;
+	font-size: 250%;
+	text-align: center;
+	padding: 3px;
+	margin-left: 25%;
+	display: inline-block;
+	float: right;
+	box-sizing: border-box;
+	width: 74%;
+	text-shadow: 5px 5px  20px #ffffff;
+	
+
+}
+.index{
+	box-sizing: border-box;
+	height:100vh;
+	width:25%;
+	background-color:rgba(0,0,0,0.55);
+	display: inline-block;
+	float: left;
+	position: fixed;
+	color: #ffffff;
+	text-align: center;
+	overflow: scroll;
+
+}
+nav h2{
+	text-align:center;
+	text-shadow: 4px 4px 2px rgba(0,0,0,1);
+	font-size: 180% 
+}
+tr{
+	margin-left: 30px;
+}
+tfoot tr,tbody tr{
+	
+	display:inline-block;
+	box-sizing: border-box;
+	margin: 5px;
+	margin-left: 30px;
+	background-color: rgba(0,0,0,0.2);
+	width: 250px;
+	height: 100px;
+	padding-top: 30px;
+	text-align: center;
+	padding-left: 20px;
+	position: relative;
+}
+tr a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: prismatic ,arial;
+	font-size: 140%;
+	text-shadow: 3px 3px 20px #000000;
+}
+thead tr{
+	font-size: 120%;
+}
+tfoot tr:hover,tbody tr:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+.active{
+	background-color: rgb(255,255,255);
+	
+}
+.active a{
+	color:rgb(0,0,0);
+}
+section{
+	box-sizing: border-box;
+	display: inline-block;
+	height: 100vh;
+	width: 74%;
+	float: right;
+}
+h3{
+	font-size: 160%;
+}
+.welcome{
+	font-size: 150%;
+	text-align: center;
+	font-family: "comic sans ms"
+}
+section{
+	font-family: "comic sans ms"
+}
+
+
